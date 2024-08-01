@@ -2,6 +2,15 @@ import streamlit as st
 
 st.set_page_config("Subscription confirmation", "pickiepoint_logo_profile_picture.png")
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 st.title("Thanks for subscribing to Pickiepoint")
 st.image("tick.png")
 st.subheader("You're all set")
