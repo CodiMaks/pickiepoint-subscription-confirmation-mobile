@@ -17,7 +17,7 @@ st.write("")
 st.image("tick.png", width=265)
 st.write("")
 
-st.caption('<span style="font-size:28px; font-weight:bold; color:white;">You're all set</span>', unsafe_allow_html=True)
+st.caption('<span style="font-size:28px; font-weight:bold; color:white;">You are all set</span>', unsafe_allow_html=True)
 st.caption('<span style="font-size:28px; font-weight:bold; color:white;">Start picking the main points</span>', unsafe_allow_html=True)
 st.subheader("")
 
