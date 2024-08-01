@@ -11,8 +11,9 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-st.title("Thanks for your subscription")
-st.image("tick.png", width=300)
+st.title("Thanks for your subscription to Pickiepoint")
+st.subheader()
+st.image("tick.png", width=270)
 st.subheader("You're all set")
 st.subheader("You can return to the website")
 st.subheader("Start picking the main points")
