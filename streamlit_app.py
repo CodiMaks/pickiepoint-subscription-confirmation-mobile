@@ -13,7 +13,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 col_1, col2, col_3 = st.columns(3)
 with col_2:
-            st.title("Thanks for your subscription to Pickiepoint")
+  st.title("Thanks for your subscription to Pickiepoint")
 st.subheader("")
 
 st.image("tick.png", width=270)
