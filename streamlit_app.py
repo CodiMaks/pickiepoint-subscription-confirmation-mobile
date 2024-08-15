@@ -1,4 +1,5 @@
 import streamlit as st
+import webbrowser
 
 st.set_page_config("Subscription confirmation", "pickiepoint_logo_profile_picture.png")
 
@@ -23,5 +24,8 @@ st.caption('<span style="font-size:25px; font-weight:bold; color:white;">\u00A0\
 st.subheader("")
 
 return_to_website = st.button("Let's go", type="primary", use_container_width=True)
+if return_to_website:
+    webbrowser.open("https://pickiepoint-mobile.streamlit.app")
+
 st.text("")
 st.image("pickiepoint_logo_profile_picture.png", use_column_width=True)
